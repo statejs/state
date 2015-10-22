@@ -2,7 +2,7 @@ function change(n, p) {
 
     $.ajax({
         type: "post",
-        url: "http://192.168.1.251:90/list/updatestate.asp",
+        url: "http://127.0.0.1/updatestate.asp",
         //得到id
         data: {
             id: n,
